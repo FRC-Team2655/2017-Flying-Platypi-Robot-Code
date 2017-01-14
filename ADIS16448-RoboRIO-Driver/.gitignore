@@ -1,0 +1,26 @@
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+
+.gradle/
+.vscode/
+arm/
+build/
+release/
+.classpath
+.project
+bin/
+.settings/
