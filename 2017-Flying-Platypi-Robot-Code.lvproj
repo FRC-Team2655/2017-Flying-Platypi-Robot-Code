@@ -660,9 +660,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Rectangle Comparison.vi" Type="VI" URL="../Vision Support Code/Rectangle Comparison.vi"/>
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision Support Code/Sorted Particle Report 2016.vi"/>
 			<Item Name="VisionAngle.vi" Type="VI" URL="../Team VI&apos;s/VisionAngle.vi"/>
-			<Item Name="WPI_IMU_ADIS16448_InterruptDevRef.ctl" Type="VI" URL="../ADIS16448-RoboRIO-Driver/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_InterruptDevRef.ctl"/>
-			<Item Name="WPI_IMU_ADIS16448_IMUDevRef.ctl" Type="VI" URL="../ADIS16448-RoboRIO-Driver/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_IMUDevRef.ctl"/>
-			<Item Name="WPI_IMU_ADIS16448_Get Angles.vi" Type="VI" URL="../ADIS16448-RoboRIO-Driver/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_Get Angles.vi"/>
+			<Item Name="FRC_ADIS16448_IMU.lvlib" Type="Library" URL="../../../2016/2016-Competition-Code/ADIS16448/ADI MXP IMU/FRC_ADIS16448_IMU.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
