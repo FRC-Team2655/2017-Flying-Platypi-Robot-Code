@@ -6,18 +6,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="API" Type="Folder">
-		<Item Name="Typedef" Type="Folder"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_Close.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Close.vi"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_FGV.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_FGV.vi"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_GetData.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_GetData.vi"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_Loop.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Loop.vi"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_Open.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Open.vi"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_RefNum Registry Get.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_RefNum Registry Get.vi"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_RefNum Registry Set.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_RefNum Registry Set.vi"/>
-		<Item Name="ADIS16448_RoboRIO_Teensy_Reset.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Reset.vi"/>
-	</Item>
-	<Item Name="Private" Type="Folder">
-		<Item Name="ADIS16448_RoboRIO_Teensy_GetSetRefNum.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_GetSetRefNum.vi"/>
-	</Item>
+	<Item Name="ADIS16448_RoboRIO_Teensy_Close.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Close.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_FGV.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_FGV.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_GetData.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_GetData.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_GetSetRefNum.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_GetSetRefNum.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_Loop.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Loop.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_Open.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Open.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_RefNum Registry Get.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_RefNum Registry Get.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_RefNum Registry Set.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_RefNum Registry Set.vi"/>
+	<Item Name="ADIS16448_RoboRIO_Teensy_Reset.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Reset.vi"/>
 </Library>
