@@ -136,7 +136,6 @@ AddOutputFilter chunkFilter
 			<Item Name="GetIMUAverage.vi" Type="VI" URL="../Team VI&apos;s/GetIMUAverage.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VI&apos;s/Joystick Sensitivity.vi"/>
 			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../Team VI&apos;s/Power_Scale_Line.vi"/>
-			<Item Name="VisionAngle.vi" Type="VI" URL="../Team VI&apos;s/VisionAngle.vi"/>
 			<Item Name="ShooterMotorSpeedControl.vi" Type="VI" URL="../Team VI&apos;s/ShooterMotorSpeedControl.vi"/>
 			<Item Name="RobotDriveMecanumUpdateSRXSpeed.vi" Type="VI" URL="../Team VI&apos;s/RobotDriveMecanumUpdateSRXSpeed.vi"/>
 			<Item Name="RobotDriveMecanumSRXSpeedControl_Cartesian.vi" Type="VI" URL="../Team VI&apos;s/RobotDriveMecanumSRXSpeedControl_Cartesian.vi"/>
