@@ -140,6 +140,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RobotDriveMecanumUpdateSRXSpeed.vi" Type="VI" URL="../Team VI&apos;s/RobotDriveMecanumUpdateSRXSpeed.vi"/>
 			<Item Name="RobotDriveMecanumSRXSpeedControl_Cartesian.vi" Type="VI" URL="../Team VI&apos;s/RobotDriveMecanumSRXSpeedControl_Cartesian.vi"/>
 			<Item Name="RobotDriveSingleMotorSpeedControl.vi" Type="VI" URL="../Team VI&apos;s/RobotDriveSingleMotorSpeedControl.vi"/>
+			<Item Name="Watchdog.vi" Type="VI" URL="../../2017-Dashboard-Code/Team VIs/Watchdog.vi"/>
 		</Item>
 		<Item Name="ADIS16448-Teensy" Type="Folder">
 			<Item Name="ADIS16448-Teensy.lvlib" Type="Library" URL="../ADIS16448-Teensy/ADIS16448-Teensy.lvlib"/>
