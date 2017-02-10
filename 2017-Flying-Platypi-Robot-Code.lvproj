@@ -133,6 +133,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Team VI&apos;s" Type="Folder">
+			<Item Name="Encoder Values.vi" Type="VI" URL="../Team VI&apos;s/Encoder Values.vi"/>
 			<Item Name="GetIMUAverage.vi" Type="VI" URL="../Team VI&apos;s/GetIMUAverage.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VI&apos;s/Joystick Sensitivity.vi"/>
 			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../Team VI&apos;s/Power_Scale_Line.vi"/>
@@ -723,7 +724,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
