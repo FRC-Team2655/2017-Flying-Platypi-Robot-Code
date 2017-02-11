@@ -143,6 +143,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RobotDriveSingleMotorSpeedControl.vi" Type="VI" URL="../Team VI&apos;s/RobotDriveSingleMotorSpeedControl.vi"/>
 			<Item Name="Flip Flop.vi" Type="VI" URL="../Team VI&apos;s/Flip Flop.vi"/>
 			<Item Name="Boolean Latch.vi" Type="VI" URL="../Team VI&apos;s/Boolean Latch.vi"/>
+			<Item Name="ResetEncoders.vi" Type="VI" URL="../Team VI&apos;s/ResetEncoders.vi"/>
 		</Item>
 		<Item Name="ADIS16448-Teensy" Type="Folder">
 			<Item Name="ADIS16448-Teensy.lvlib" Type="Library" URL="../ADIS16448-Teensy/ADIS16448-Teensy.lvlib"/>
@@ -164,7 +165,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision Support Code/Sorted Particle Report 2016.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="ResetEncoders.vi" Type="VI" URL="../Team VI&apos;s/ResetEncoders.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
