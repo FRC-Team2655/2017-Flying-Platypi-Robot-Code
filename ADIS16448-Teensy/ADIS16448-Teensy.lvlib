@@ -6,6 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="ADIS16448_RoboRIO_Teensy_Calibrate.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Calibrate.vi"/>
 	<Item Name="ADIS16448_RoboRIO_Teensy_Close.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_Close.vi"/>
 	<Item Name="ADIS16448_RoboRIO_Teensy_FGV.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_FGV.vi"/>
 	<Item Name="ADIS16448_RoboRIO_Teensy_GetData.vi" Type="VI" URL="../ADIS16448_RoboRIO_Teensy_GetData.vi"/>
