@@ -144,6 +144,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Flip Flop.vi" Type="VI" URL="../Team VI&apos;s/Flip Flop.vi"/>
 			<Item Name="Boolean Latch.vi" Type="VI" URL="../Team VI&apos;s/Boolean Latch.vi"/>
 			<Item Name="ResetEncoders.vi" Type="VI" URL="../Team VI&apos;s/ResetEncoders.vi"/>
+			<Item Name="Four Motor Set Brake Coast.vi" Type="VI" URL="../Team VI&apos;s/Four Motor Set Brake Coast.vi"/>
 		</Item>
 		<Item Name="ADIS16448-Teensy" Type="Folder">
 			<Item Name="ADIS16448-Teensy.lvlib" Type="Library" URL="../ADIS16448-Teensy/ADIS16448-Teensy.lvlib"/>
@@ -682,6 +683,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
