@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="GIT_FILE" Type="Bool">false</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -14,8 +15,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Sim Support Files" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="FRC SimulatedRSC" Type="Folder">
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="ive" Type="Folder">
+					<Property Name="GIT_FILE" Type="Bool">false</Property>
 					<Item Name="AXIS M1011.ive" Type="Document" URL="../FRC SimulatedRSC/ive/AXIS M1011.ive"/>
 					<Item Name="Devantech SRF05.ive" Type="Document" URL="../FRC SimulatedRSC/ive/Devantech SRF05.ive"/>
 					<Item Name="FRC - Body.ive" Type="Document" URL="../FRC SimulatedRSC/ive/FRC - Body.ive"/>
@@ -35,7 +39,9 @@
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
+		</Item>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
@@ -43,6 +49,7 @@
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76F2;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
+		<Property Name="GIT_FILE" Type="Bool">false</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -119,9 +126,11 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -133,6 +142,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Team VI&apos;s" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Encoder Values.vi" Type="VI" URL="../Team VI&apos;s/Encoder Values.vi"/>
 			<Item Name="GetIMUAverage.vi" Type="VI" URL="../Team VI&apos;s/GetIMUAverage.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VI&apos;s/Joystick Sensitivity.vi"/>
@@ -148,15 +158,18 @@ AddOutputFilter chunkFilter
 			<Item Name="CurrentLimit.vi" Type="VI" URL="../Team VI&apos;s/CurrentLimit.vi"/>
 		</Item>
 		<Item Name="ADIS16448-Teensy" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="ADIS16448-Teensy.lvlib" Type="Library" URL="../ADIS16448-Teensy/ADIS16448-Teensy.lvlib"/>
 		</Item>
 		<Item Name="GearCode" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="GearDistance.vi" Type="VI" URL="../GearCode/GearDistance.vi"/>
 			<Item Name="GearGroup.vi" Type="VI" URL="../GearCode/GearGroup.vi"/>
 			<Item Name="GearRectangleCompare.vi" Type="VI" URL="../GearCode/GearRectangleCompare.vi"/>
 			<Item Name="VisionAngle.vi" Type="VI" URL="../GearCode/VisionAngle.vi"/>
 		</Item>
 		<Item Name="Vision Support Code" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Calibration Helper2.vi" Type="VI" URL="../Vision Support Code/Calibration Helper2.vi"/>
 			<Item Name="Camera Types.ctl" Type="VI" URL="../Vision Support Code/Camera Types.ctl"/>
 			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../Vision Support Code/Compute DistanceToTarget2.vi"/>
@@ -686,6 +699,14 @@ AddOutputFilter chunkFilter
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
 				<Item Name="WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi"/>
+				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
+				<Item Name="WPI_ServoToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoToPWM.vi"/>
+				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
+				<Item Name="WPI_ServoClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoClose.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Get.vi"/>
+				<Item Name="WPI_ServoSetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetPosition.vi"/>
+				<Item Name="WPI_ServoSetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetAngle.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -711,6 +732,7 @@ AddOutputFilter chunkFilter
 			<Item Name="WaveOutput.vi" Type="VI" URL="../Team VI&apos;s/WaveOutput.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_INI_aliasGUID" Type="Str">{067FD83F-2C97-4125-9F5A-F761978FA41D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0A0DB645-CEE2-4F89-9EBA-5A8D0274B515}</Property>
@@ -737,6 +759,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Property Name="Source[0].itemID" Type="Str">{F7903C37-9363-42AB-A5BB-8C59554B8F75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
