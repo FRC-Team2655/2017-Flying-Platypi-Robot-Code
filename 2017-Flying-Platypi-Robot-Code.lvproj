@@ -732,6 +732,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InRangeOfTarget.vi" Type="VI" URL="../Team VI&apos;s/InRangeOfTarget.vi"/>
 			<Item Name="Util_Functions.ctl" Type="VI" URL="../ADIS16448-Teensy/Util_Functions.ctl"/>
 			<Item Name="WaveOutput.vi" Type="VI" URL="../Team VI&apos;s/WaveOutput.vi"/>
+			<Item Name="PIDF.vi" Type="VI" URL="../Team VI&apos;s/PIDF.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
