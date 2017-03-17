@@ -156,6 +156,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ResetEncoders.vi" Type="VI" URL="../Team VI&apos;s/ResetEncoders.vi"/>
 			<Item Name="Four Motor Set Brake Coast.vi" Type="VI" URL="../Team VI&apos;s/Four Motor Set Brake Coast.vi"/>
 			<Item Name="CurrentLimit.vi" Type="VI" URL="../Team VI&apos;s/CurrentLimit.vi"/>
+			<Item Name="PIDExitWhenStable.vi" Type="VI" URL="../Team VI&apos;s/PIDExitWhenStable.vi"/>
 		</Item>
 		<Item Name="ADIS16448-Teensy" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -752,7 +753,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -762,7 +763,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B96A357E-98BD-42E6-9F49-14CAF8A77B78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{18E6201D-88EC-4028-84AE-2BF11571C4B6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
